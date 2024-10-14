@@ -25,7 +25,7 @@ Apache HOP requires Java JDK 11 or higher to run.
    - Open **Control Panel** → **System** → **Advanced system settings**.
    - Go to the **Advanced** tab and click **Environment Variables**.
    - Under **System variables**, find the `Path` variable, select it, and click **Edit**.
-   - Add the path to the `bin` folder of the JDK installation (e.g., `C:\Program Files\Java\jdk-11.x.xin`).
+   - Add the path to the `bin` folder of the JDK installation (e.g., `C:\Program Files\Java\jdk-11.x.x_x64\bin`).
 4. Verify the Java installation by opening **Command Prompt** and typing:
    ```bash
    java -version
@@ -43,12 +43,12 @@ Extract the downloaded ZIP file to a folder of your choice, e.g., `C:\ApacheHop`
 
 ## 5. Optional: Add HOP to System PATH
 
-To run Apache HOP from anywhere in your system, you can add the `C:\ApacheHopin` folder to your PATH environment variable:
+To run Apache HOP from anywhere in your system, you can add the `C:\ApacheHop\bin` folder to your PATH environment variable:
 
 1. Open **Control Panel** → **System** → **Advanced system settings**.
 2. Go to the **Advanced** tab and click **Environment Variables**.
 3. Under **System variables**, find the **Path** variable, select it, and click **Edit**.
-4. Add the path to the HOP `bin` folder (e.g., `C:\ApacheHopin`).
+4. Add the path to the HOP `bin` folder (e.g., `C:\ApacheHop\bin`).
 
 ## 6. Run Apache HOP
 
